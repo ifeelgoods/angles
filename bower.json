@@ -1,9 +1,11 @@
 {
   "name": "angles",
-  "version": "1.0",
+  "version": "1.0.1-beta",
   "authors": [
-    "Lindsay Silver"
+    "Lindsay Silver",
+    "Jesus Torres"
   ],
+  "main": "angles.js",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,7 +17,6 @@
     "libs/Chart.js"
   ],
   "dependencies": {
-    "angular": "~1.2.0",
-    "nnnick-chartjs": "*"
+    "chartjs": "1.0.1-beta.3"
   }
 }
